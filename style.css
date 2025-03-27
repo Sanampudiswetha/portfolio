@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
@@ -169,3 +170,176 @@ footer {
         padding: 30px;
     }
 }
+=======
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+    background: #333;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #8f94fb;
+}
+
+/* Sections */
+section {
+    max-width: 900px;
+    margin: 60px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4e54c8;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Skills Section */
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+}
+
+#skills li {
+    list-style: none;
+    background: #4e54c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+#skills li:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+.project {
+    background: #eef2ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project h3 {
+    color: #4e54c8;
+}
+
+/* Contact */
+#contact a {
+    color: #4e54c8;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    color: #8f94fb;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
+>>>>>>> 9054a35 (Saved local changes)
